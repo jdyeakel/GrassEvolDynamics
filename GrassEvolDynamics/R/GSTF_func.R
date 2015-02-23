@@ -10,4 +10,5 @@ GSTF_func <- function(t, state, parameters) {
     #Return rate of change
     list(c(dG,dS,dTr,dFo))
   }) #end with statement
+  
 }
