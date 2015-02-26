@@ -65,7 +65,7 @@ parameters <- c(
   #eg = 0.1,
   #eb = 0.1,
   ag = 0.01,           #Grazer attack rate
-  ab = 0.01         #Browser attack rate
+  ab = 0.04         #Browser attack rate
   #dg = 0.05,
   #db = 0.05
 )
