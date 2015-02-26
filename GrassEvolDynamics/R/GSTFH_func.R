@@ -2,10 +2,15 @@
 GSTFH_func <- function(t, state, parameters) {
   with(as.list(c(state,parameters)), {
     
+    #The current dynamics account for herbivory mortality exactly as natural mortality
+    #Grazed saplings -> grass
+    #Browsed trees -> grass
+    #Browsed forest -> grass
+    
     #Rate of change
     #Grassland <-> Sapling <-> Savanna <-> Woodland
-    dG <- mu*S + v*Tr + (phi0 + ((phi1-phi0)/(1 + exp(-1000*(G-phimid)))))*Fo - beta*G*Tr - alpha*G*Fo + ag*S
-    dS <- beta*G*Tr - (omega0 + ((omega1-omega0)/(1 + exp(-1000*(G-omegamid)))))*S - mu*S - alpha*S*Fo - ag*S + ab*(Tr + Fo)
+    dG <- mu*S + v*Tr + (phi0 + ((phi1-phi0)/(1 + exp(-1000*(G-phimid)))))*Fo - beta*G*Tr - alpha*G*Fo + ag*S +ab*(Tr + Fo)
+    dS <- beta*G*Tr - (omega0 + ((omega1-omega0)/(1 + exp(-1000*(G-omegamid)))))*S - mu*S - alpha*S*Fo - ag*S
     dTr <- (omega0 + ((omega1-omega0)/(1 + exp(-1000*(G-omegamid)))))*S - v*Tr - alpha*Tr*Fo - ab*Tr
     dFo <- (alpha*(1 - Fo) - (phi0 + ((phi1-phi0)/(1 + exp(-1000*(G-phimid))))) )*Fo - ab*Fo
     

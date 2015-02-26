@@ -64,8 +64,8 @@ parameters <- c(
   #Herbivory parameters
   #eg = 0.1,
   #eb = 0.1,
-  ag = 0.5,
-  ab = 0
+  ag = 0.01,           #Grazer attack rate
+  ab = 0.01         #Browser attack rate
   #dg = 0.05,
   #db = 0.05
 )
