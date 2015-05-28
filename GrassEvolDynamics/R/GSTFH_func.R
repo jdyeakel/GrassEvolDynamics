@@ -7,6 +7,8 @@ GSTFH_func <- function(t, state, parameters) {
     #Browsed trees -> grass
     #Browsed forest -> grass
     
+    #Might consider allowing browsed forest -> (grass,saplings)
+    
     #Rate of change
     #Grassland <-> Sapling <-> Savanna <-> Woodland
     dG <- mu*S + v*Tr + (phi0 + ((phi1-phi0)/(1 + exp(-1000*(G-phimid)))))*Fo - beta*G*Tr - alpha*G*Fo + ag*S +ab*(Tr + Fo)

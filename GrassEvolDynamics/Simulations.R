@@ -83,4 +83,6 @@ lines(out[,1],out[,3],col=colors[4],type="l",lwd=2) #Purple
 lines(out[,1],out[,4],col=colors[1],type="l",lwd=2) #Red
 lines(out[,1],out[,5],col=colors[3],type="l",lwd=2) #Green
 
-plot(out[,1],out[,6],col=colors[5],type="l")
+plot(out[,2],out[,4],col=colors[5],type="l")
+
+boxplot(out[,2:5])
