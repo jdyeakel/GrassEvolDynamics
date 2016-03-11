@@ -1,0 +1,97 @@
+% ---
+% SFI letter head template.  Requires KOMA-script package bundle available at:
+% http://tug.ctan.org/tex-archive/macros/latex/contrib/koma-script/ 
+%
+% Required files:
+% - sfi.lco: formatting commands
+% - SFI logos:
+% -- SFI_Name_308.pdf
+% -- SFI_Mimbres_Insignia_308.pdf
+% -- SFI_Mimbres_Insignia_black_5perOpacity_half.pdf
+% ---
+
+\documentclass[sfi,11pt,foldmarks=off,backaddress=false,letterpaper]{scrlttr2}
+
+\usepackage[letterpaper]{geometry} % easy way to set margins and paper size
+\geometry{hmargin={1in,1in},vmargin={1.25in,1.1in}}
+\usepackage[export]{adjustbox}
+\usepackage{setspace}
+\usepackage{wrapfig}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage{mathrsfs}
+\usepackage{bm}
+\usepackage{wasysym}
+\usepackage{placeins}
+\usepackage{multirow}
+\usepackage[T1]{fontenc}
+\usepackage{framed}
+\usepackage{caption}
+\usepackage{longtable}
+
+
+\newenvironment{tightcenter}{%
+  \setlength\topsep{0pt}
+  \setlength\parskip{0pt}
+  \begin{center}
+}{%
+  \end{center}
+}
+
+% Sender's information
+\setkomavar{fromname}{Justin Yeakel \& Nathaniel Dominy} 
+\setkomavar{fromnameheader}{{\bfseries Justin D. Yeakel} \\ {\itshape SFI Omidyar Fellow} \\ {\bfseries Nathaniel J. Dominy}\\ {\itshape Associate Professor, Dartmouth College}}
+\setkomavar{fromaddress}{1399 Hyde Park Road, Santa Fe, NM 87501}
+\setkomavar{fromaddressheader}{}
+\setkomavar{fromphone}{(505) 946-2784}
+\setkomavar{fromemail}{\href{mailto:jdyeakel@gmail.com}{jdyeakel@gmail.com}}
+\setkomavar{fromurl}{\href{http://jdyeakel.github.io}{http://jdyeakel.github.io}}
+\setkomavar{signature}{Justin Yeakel \& Nathaniel Dominy}
+%\setkomavar{signature}{\includegraphics[scale=0.5]{hand_sig.pdf}\\John Doe} % use PDF image of signature
+\setkomavar{date}{}
+
+\begin{document}
+
+% Recipient's information
+\begin{letter}{{\bfseries Santa Fe Institute Working Group}\\ {\itshape September 30 - October 02, 2015} }
+
+\opening{}
+
+\begin{tightcenter}
+{\bfseries Coupled grassland and mammalian community dynamics \\ over ecological and evolutionary timescales}
+\end{tightcenter}
+\vspace{10pt}
+
+{\bfseries Background} The evolution of grassland habitats in the late Cenozoic has had a profound influence on mammalian evolution and community structure. Although the origins of ${\rm C_3}$ grasses are placed firmly in the Mesozoic, it was not until the early-mid Miocene that many forested habitats gave way to either heterogeneous grassland-woodland mosaics, or grass-dominated savannas. A second phase in grassland evolution occurred with the rise and spread of ${\rm C_4}$ grasses (which differ from ${\rm C_3}$ grasses in that they concentrate ${\rm CO_2}$ within their tissues), which tend to be drought-tolerant with fast turn-over and slow decomposition rates, promoting fire to the exclusion of woody vegetation. These evolutionary events directly followed the height of mammalian diversification, and are thought to have since played an important role in the evolutionary and ecological constraints driving many mammalian communities.
+
+Grassland expansion in a previously forested environment changes the fitness landscape over which the success or failure to survive and reproduce is determined. Open or patchy grassland-woodland environments introduce a relatively homogeneous yet low quality nutritional resource that reduces the uncertainty of acquisition (e.g. as compared to the temporally and spatially heterogeneous masting events in forests), yet places severe demands on consumption and digestion. Moreover, grasslands are open environments, easing the difficulties of travel, yet reducing cover, altering predation risks. These combined features of grasslands have often been cited as a primary driver of mammalian body size evolution, stimulating the formation of large social groups, and playing a central role in human evolution. It is also known that the evolution of grassland-adapted mammals has had a reciprocal impact on the establishment and maintenance of grasslands themselves. To what extent these habitat dynamics influenced mammalian evolution, or contribute to the structure of both past and contemporary mammalian communities is unknown.
+
+\vspace{10pt}
+
+{\bfseries Aims} This Working Group aims to investigate the consequences of grassland habitats on mammalian ecology and evolution in both species-specific and community contexts. Among the questions this Working Group aims to address include (but are not limited to):
+\begin{itemize}
+\item How do savanna-woodland habitats impact the structure of communities?
+\item What is the interplay between spatial heterogeneity and consumer behaviors in grassland-woodland environments?
+\item How did the emergence of grassland ecosystems influence the evolutionary dynamics of different mammalian guilds?
+\item What ecological challenges did grasslands introduce to forest-adapted mammalian species, and how did this influence human evolution?
+\end{itemize}
+
+
+
+
+
+To address these questions, we will bring together diverse scholars. For instance, researchers who focus on the eco-evolutionary dynamics, functional ecology, social dynamics, and paleontology of grassland-adapted mammalian groups including ungulates, baboons, and hominins; researchers using quantitative tools (such as stable isotopes) to elucidate the origin, expansion, and ecological utilization of grassland plants by animals in both modern and paleontological contexts; researchers who study interactions between vegetation and mammalian species in modern grassland ecosystems; and researchers focused on integrating  interactions in larger community contexts to understand the structure and functioning of both paleo and modern ecological networks over evolutionary time.
+
+\vspace{10pt}
+
+{\bfseries Output} Our goal is to produce 5-8 working papers that will address different aspects of the eco-evolutionary interplay between grasslands and mammalian communities for a special issue of - for example - {\itshape Interface Focus}, {\itshape Philosophical Transactions of the Royal Society B}, or perhaps {\itshape Oecologia}, {\itshape Journal of Ecology}, {\itshape Frontiers in Ecology and the Environment}, or a similarly-ranked journal. The first meeting of the Working Group will aim to focus on the most relevant and tractable questions, and to initiate smaller-group projects that will embody the set of papers to be tackled. We aim to follow-up this Working Group with a second meeting at Dartmouth College to present and synthesize the outcome of our efforts and to finalize the details of publication.
+
+
+
+\closing{Hoping that you will join us in Santa Fe,}
+
+
+\end{letter}
+
+\end{document}

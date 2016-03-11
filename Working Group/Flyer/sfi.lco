@@ -1,0 +1,117 @@
+\ProvidesFile{sfi.lco}[%
+  2012/09/26: updated to support SFI Visual Identity Guide June 2012]
+
+\usepackage[english]{babel}
+\usepackage{graphicx}
+\usepackage{hyperref}
+\usepackage{xcolor}
+
+\usepackage[absolute]{textpos}
+\setlength{\TPHorizModule}{1in}
+\setlength{\TPVertModule}{1in}
+
+% ==============================================
+% PERSONAL DATA
+% ==============================================
+\newkomavar{fromnameheader}
+\newkomavar{fromaddressheader}
+%\setkomavar{fromname}{}
+%\setkomavar{fromnameheader}{}
+%\setkomavar{fromaddress}{}
+%\setkomavar{fromaddressheader}{}
+%\setkomavar{fromphone}{}
+%\setkomavar{fromemail}{}
+%\setkomavar{fromfax}{}
+%\setkomavar{fromurl}{}
+%\setkomavar{frombank}{}
+%\setkomavar{place}{}
+
+% ==============================================
+% FORMATTING STUFF
+% ==============================================
+
+% For XeLaTeX only
+% === font settings
+%\usepackage{fontspec}
+%\defaultfontfeatures{Mapping=tex-text}
+%\setmainfont {Times New Roman}
+%\setsansfont{Tahoma}
+
+%set the font size and leading
+%\renewcommand{\normalsize}{\fontsize{12.5}{17}\selectfont}
+
+% set space between opening and top of page
+\@setplength{refvpos}{80mm}
+
+% === header settings
+\@setplength{firstheadvpos}{0in}
+\@setplength{firstheadhpos}{0in}
+\@setplength{firstheadwidth}{8.5in}
+\firsthead{
+\begin{textblock}{2}(0.83,0.42)
+\noindent\includegraphics[width=1.9in]{SFI_Name_308.pdf}
+\end{textblock}
+\begin{textblock}{8.5}(0.0,0.62)
+\noindent{\color[gray]{0.85}\rule{8.5in}{0.2cm}}
+\end{textblock}
+\begin{textblock}{1}(6.5,0.284)
+\noindent{\color{white}\rule{1in}{0.75in}}
+\end{textblock}
+\begin{textblock}{0.75}(6.63,0.284)
+\noindent\includegraphics[width=0.75in]{SFI_Mimbres_Insignia_308.pdf}
+\end{textblock}
+\begin{textblock}{2.83}(0.0,5.35)
+\noindent\includegraphics[width=2.83in]{SFI_Mimbres_Insignia_black_5perOpacity_half.pdf}
+\end{textblock}
+\vspace{\useplength{toaddrvpos}}
+\hfill
+\begin{minipage}[b]{2in}
+\vspace{0pt}\raggedleft
+\usekomavar{fromnameheader} \\
+\usekomavar{fromaddressheader}
+\end{minipage}
+\rule{1in}{0pt}}
+\@setplength{toaddrvpos}{40mm}
+
+\pagestyle{headings}
+\nexthead{
+\vbox{\begin{textblock}{2}(4.6,0.42)
+\noindent\includegraphics[width=1.9in]{SFI_Name_308.pdf}
+\end{textblock}
+\begin{textblock}{6.5}(0.0,0.62)
+\noindent{\color[gray]{0.85}\rule{6.5in}{0.2cm}}
+\end{textblock}
+\begin{textblock}{2.83}(0.0,5.35)
+\noindent\includegraphics[width=2.83in]{SFI_Mimbres_Insignia_black_5perOpacity_half.pdf}
+\end{textblock}}
+}
+
+\setkomafont{backaddress}{\scshape\bfseries\scriptsize}
+
+% decrease space after closing before printed signature
+\@setplength{sigbeforevskip}{0.5ex}
+% increase indent for signature
+%\@setplength{sigindent}{3in}
+\@setplength{sigindent}{0in}
+% left justify signature
+\let\raggedsignature=\raggedright
+
+% === footer settings
+\newcommand{\makefoot}{%
+  \centering%
+  {\scshape\scriptsize%
+  {\renewcommand{\\}{\ {\large\textperiodcentered}\ }%
+    \usekomavar{fromaddress}}%
+  {\large\textperiodcentered} \usekomavar{fromphone}\\
+  \usekomavar{fromurl} {\large\textperiodcentered} \usekomavar{fromemail}}%
+}
+\firstfoot{\parbox[b]{\useplength{firstfootwidth}}{\makefoot}}
+\nextfoot{\parbox[t]{\useplength{firstfootwidth}}{%
+\begin{tabular*}{\useplength{firstfootwidth}}%
+{p{0.07\useplength{firstfootwidth}}@{}p{0.8\useplength{firstfootwidth}}@{}p{0.12\useplength{firstfootwidth}}}%
+& & \centering{\scshape\scriptsize\pagename~\thepage}
+\end{tabular*}%
+}}
+
+
+\endinput

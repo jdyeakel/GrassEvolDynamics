@@ -1,0 +1,845 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  28 MAY 2015 14:28
+entering extended mode
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**sfi_letter_template.tex
+(./sfi_letter_template.tex
+LaTeX2e <2014/05/01>
+Babel <3.9k> and hyphenation patterns for 78 languages loaded.
+(/usr/local/texlive/2014/texmf-dist/tex/latex/koma-script/scrlttr2.cls
+Document Class: scrlttr2 2013/12/19 v3.12 KOMA-Script document class (letter)
+(/usr/local/texlive/2014/texmf-dist/tex/latex/koma-script/scrkbase.sty
+Package: scrkbase 2013/12/19 v3.12 KOMA-Script package (KOMA-Script-dependent basics and keyval usage)
+ (/usr/local/texlive/2014/texmf-dist/tex/latex/koma-script/scrbase.sty
+Package: scrbase 2013/12/19 v3.12 KOMA-Script package (KOMA-Script-independent basics and keyval usage)
+ (/usr/local/texlive/2014/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/05/08 v1.15 key=value parser (DPC)
+\KV@toks@=\toks14
+) (/usr/local/texlive/2014/texmf-dist/tex/latex/koma-script/scrlfile.sty
+Package: scrlfile 2013/12/19 v3.12 KOMA-Script package (loading files)
+
+Package scrlfile, 2013/12/19 v3.12 KOMA-Script package (loading files)
+                  Copyright (C) Markus Kohm
+
+)))
+Package scrlttr2 Info: You've used standard option `11pt'.
+(scrlttr2)             This is correct!
+(scrlttr2)             Internally I'm using `fontsize=11pt'.
+(scrlttr2)             If you'd like to set the option with \KOMAoptions,
+(scrlttr2)             you'd have to use `fontsize=11pt' there
+(scrlttr2)             instead of `11pt', too.
+Class scrlttr2 Info: File `scrsize11pt.clo' used to setup font sizes on input line 1384.
+ (/usr/local/texlive/2014/texmf-dist/tex/latex/koma-script/scrsize11pt.clo
+File: scrsize11pt.clo 2013/12/19 v3.12 KOMA-Script font size class option (11pt)
+) (/usr/local/texlive/2014/texmf-dist/tex/latex/koma-script/typearea.sty
+Package: typearea 2013/12/19 v3.12 KOMA-Script package (type area)
+
+Package typearea, 2013/12/19 v3.12 KOMA-Script package (type area)
+                  Copyright (C) Frank Neukam, 1992-1994
+                  Copyright (C) Markus Kohm, 1994-
+
+\ta@bcor=\skip41
+\ta@div=\count79
+Package typearea Info: You've used standard option `letterpaper'.
+(typearea)             This is correct!
+(typearea)             Internally I'm using `paper=letter'.
+(typearea)             If you'd like to set the option with \KOMAoptions,
+(typearea)             you'd have to use `paper=letter' there
+(typearea)             instead of `letterpaper', too.
+\ta@hblk=\skip42
+\ta@vblk=\skip43
+\ta@temp=\skip44
+\footheight=\skip45
+Package typearea Info: These are the values describing the layout:
+(typearea)             DIV  = 10
+(typearea)             BCOR = 0.0pt
+(typearea)             \paperwidth      = 614.295pt
+(typearea)              \textwidth      = 430.00653pt
+(typearea)              DIV departure   = -9%
+(typearea)              \evensidemargin = 19.87424pt
+(typearea)              \oddsidemargin  = 19.87424pt
+(typearea)             \paperheight     = 794.96999pt
+(typearea)              \textheight     = 568.60025pt
+(typearea)              \topmargin      = -30.173pt
+(typearea)              \headheight     = 17.0pt
+(typearea)              \headsep        = 20.40001pt
+(typearea)              \topskip        = 11.0pt
+(typearea)              \footskip       = 47.6pt
+(typearea)              \baselineskip   = 13.6pt
+(typearea)              on input line 1330.
+))
+Class scrlttr2 Info: Letter-Class-Option `DIN' loaded on input line 14.
+ (/usr/local/texlive/2014/texmf-dist/tex/latex/koma-script/DIN.lco
+File: DIN.lco 2013/12/19 v3.12 KOMA-Script letter-class-option
+)
+Class scrlttr2 Info: Letter-Class-Option `sfi' loaded on input line 14.
+ (./sfi.lco
+File: sfi.lco 2012/09/26: updated to support SFI Visual Identity Guide June 2012
+ (/usr/local/texlive/2014/texmf-dist/tex/generic/babel/babel.sty
+Package: babel 2014/03/24 3.9k The Babel package
+ (/usr/local/texlive/2014/texmf-dist/tex/generic/babel-english/english.ldf
+Language: english 2012/08/20 v3.3p English support from the babel system
+ (/usr/local/texlive/2014/texmf-dist/tex/generic/babel/babel.def
+File: babel.def 2014/03/24 3.9k Babel common definitions
+\babel@savecnt=\count80
+\U@D=\dimen102
+)
+\l@canadian = a dialect from \language\l@american 
+\l@australian = a dialect from \language\l@british 
+\l@newzealand = a dialect from \language\l@british 
+)) (/usr/local/texlive/2014/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2014/04/25 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+ (/usr/local/texlive/2014/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+ (/usr/local/texlive/2014/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+) (/usr/local/texlive/2014/texmf-dist/tex/latex/latexconfig/graphics.cfg
+File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
+)
+Package graphics Info: Driver file: pdftex.def on input line 91.
+ (/usr/local/texlive/2014/texmf-dist/tex/latex/pdftex-def/pdftex.def
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+ (/usr/local/texlive/2014/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+) (/usr/local/texlive/2014/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count81
+))
+\Gin@req@height=\dimen103
+\Gin@req@width=\dimen104
+) (/usr/local/texlive/2014/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2012/11/06 v6.83m Hypertext links for LaTeX
+ (/usr/local/texlive/2014/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+Package: hobsub-hyperref 2012/05/28 v1.13 Bundle oberdiek, subset hyperref (HO)
+ (/usr/local/texlive/2014/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
+Package: hobsub-generic 2012/05/28 v1.13 Bundle oberdiek, subset generic (HO)
+Package: hobsub 2012/05/28 v1.13 Construct package bundles (HO)
+Package hobsub Info: Skipping package `infwarerr' (already loaded).
+Package hobsub Info: Skipping package `ltxcmds' (already loaded).
+Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+Package: ifvtex 2010/03/01 v1.5 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+Package: intcalc 2007/09/27 v1.1 Expandable calculations with integers (HO)
+Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in PDF mode is detected.
+Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
+Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
+Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+Package: pdfescape 2011/11/25 v1.13 Implements pdfTeX's escape features (HO)
+Package: bigintcalc 2012/04/08 v1.3 Expandable calculations on big integers (HO)
+Package: bitset 2011/01/30 v1.1 Handle bit-vector datatype (HO)
+Package: uniquecounter 2011/01/30 v1.2 Provide unlimited unique counter (HO)
+)
+Package hobsub Info: Skipping package `hobsub' (already loaded).
+Package: letltxmacro 2010/09/02 v1.4 Let assignment for LaTeX macros (HO)
+Package: hopatch 2012/05/28 v1.2 Wrapper for package hooks (HO)
+Package: xcolor-patch 2011/01/30 xcolor patch
+Package: atveryend 2011/06/30 v1.8 Hooks at the very end of document (HO)
+Package atveryend Info: \enddocument detected (standard20110627).
+Package: atbegshi 2011/10/05 v1.16 At begin shipout hook (HO)
+Package: refcount 2011/10/16 v3.4 Data extraction from label references (HO)
+Package: hycolor 2011/01/30 v1.7 Color options for hyperref/bookmark (HO)
+) (/usr/local/texlive/2014/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+) (/usr/local/texlive/2014/texmf-dist/tex/latex/oberdiek/auxhook.sty
+Package: auxhook 2011/03/04 v1.3 Hooks for auxiliary files (HO)
+) (/usr/local/texlive/2014/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
+)
+\@linkdim=\dimen105
+\Hy@linkcounter=\count82
+\Hy@pagecounter=\count83
+ (/usr/local/texlive/2014/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2012/11/06 v6.83m Hyperref: PDFDocEncoding definition (HO)
+)
+\Hy@SavedSpaceFactor=\count84
+ (/usr/local/texlive/2014/texmf-dist/tex/latex/latexconfig/hyperref.cfg
+File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
+)
+Package hyperref Info: Hyper figures OFF on input line 4443.
+Package hyperref Info: Link nesting OFF on input line 4448.
+Package hyperref Info: Hyper index ON on input line 4451.
+Package hyperref Info: Plain pages OFF on input line 4458.
+Package hyperref Info: Backreferencing OFF on input line 4463.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4688.
+\c@Hy@tempcnt=\count85
+ (/usr/local/texlive/2014/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip10
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 5041.
+\XeTeXLinkMargin=\dimen106
+\Fld@menulength=\count86
+\Field@Width=\dimen107
+\Fld@charsize=\dimen108
+Package hyperref Info: Hyper figures OFF on input line 6295.
+Package hyperref Info: Link nesting OFF on input line 6300.
+Package hyperref Info: Hyper index ON on input line 6303.
+Package hyperref Info: backreferencing OFF on input line 6310.
+Package hyperref Info: Link coloring OFF on input line 6315.
+Package hyperref Info: Link coloring with OCG OFF on input line 6320.
+Package hyperref Info: PDF/A mode OFF on input line 6325.
+LaTeX Info: Redefining \ref on input line 6365.
+LaTeX Info: Redefining \pageref on input line 6369.
+\Hy@abspage=\count87
+\c@Item=\count88
+\c@Hfootnote=\count89
+)
+
+Package hyperref Message: Driver (autodetected): hpdftex.
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2012/11/06 v6.83m Hyperref driver for pdfTeX
+\Fld@listcount=\count90
+\c@bookmark@seq@number=\count91
+ (/usr/local/texlive/2014/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
+Package: rerunfilecheck 2011/04/15 v1.7 Rerun checks for auxiliary files (HO)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 282.
+)
+\Hy@SectionHShift=\skip46
+) (/usr/local/texlive/2014/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2007/01/21 v2.11 LaTeX color extensions (UK)
+ (/usr/local/texlive/2014/texmf-dist/tex/latex/latexconfig/color.cfg
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1337.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1341.
+Package xcolor Info: Model `RGB' extended on input line 1353.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1355.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1356.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1357.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1358.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1359.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1360.
+) (/usr/local/texlive/2014/texmf-dist/tex/latex/textpos/textpos.sty
+Package: textpos 2014/01/03 v1.7j
+
+Package: textpos 2014/01/03 1.7j, absolute positioning of text on the page
+(/usr/local/texlive/2014/texmf-dist/tex/latex/ms/everyshi.sty
+Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
+)
+\TP@textbox=\box26
+\TP@holdbox=\box27
+\TPHorizModule=\dimen109
+\TPVertModule=\dimen110
+\TP@margin=\dimen111
+\TP@absmargin=\dimen112
+
+Grid set 16 x 16 = 38.39343pt x 49.68562pt
+\TPboxrulesize=\dimen113
+\TP@ox=\dimen114
+\TP@oy=\dimen115
+\TP@tbargs=\toks15
+\TP@prevdepth=\dimen116
+TextBlockOrigin set to 0pt x 0pt
+)
+
+Class scrlttr2 Warning: Deprecated usage of \firsthead.
+(scrlttr2)              You should use \setkomavar{firsthead}
+(scrlttr2)              instead of \firsthead on input line 50.
+
+
+Class scrlttr2 Warning: Deprecated usage of \nexthead.
+(scrlttr2)              You should use \setkomavar{nexthead}
+(scrlttr2)              instead of \nexthead on input line 77.
+
+
+Class scrlttr2 Warning: Deprecated usage of \firstfoot.
+(scrlttr2)              You should use \setkomavar{firstfoot}
+(scrlttr2)              instead of \firstfoot on input line 108.
+
+
+Class scrlttr2 Warning: Deprecated usage of \nextfoot.
+(scrlttr2)              You should use \setkomavar{nextfoot}
+(scrlttr2)              instead of \nextfoot on input line 109.
+
+) (/usr/local/texlive/2014/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2010/09/12 v5.6 Page Geometry
+\Gm@cnth=\count92
+\Gm@cntv=\count93
+\c@Gm@tempcnt=\count94
+\Gm@bindingoffset=\dimen117
+\Gm@wd@mp=\dimen118
+\Gm@odd@mp=\dimen119
+\Gm@even@mp=\dimen120
+\Gm@layoutwidth=\dimen121
+\Gm@layoutheight=\dimen122
+\Gm@layouthoffset=\dimen123
+\Gm@layoutvoffset=\dimen124
+\Gm@dimlist=\toks16
+) (/usr/local/texlive/2014/texmf-dist/tex/latex/adjustbox/adjustbox.sty
+Package: adjustbox 2012/05/21 v1.0 Adjusting TeX boxes (trim, clip, ...)
+ (/usr/local/texlive/2014/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+Package: xkeyval 2014/05/09 v2.6d package option processing (HA)
+ (/usr/local/texlive/2014/texmf-dist/tex/generic/xkeyval/xkeyval.tex
+\XKV@toks=\toks17
+\XKV@tempa@toks=\toks18
+\XKV@depth=\count95
+File: xkeyval.tex 2014/05/09 v2.6d key=value parser (HA)
+)) (/usr/local/texlive/2014/texmf-dist/tex/latex/adjustbox/adjcalc.sty
+Package: adjcalc 2012/05/16 v1.1 Provides advanced setlength with multiple back-ends (calc, etex, pgfmath)
+) (/usr/local/texlive/2014/texmf-dist/tex/latex/adjustbox/trimclip.sty
+Package: trimclip 2012/05/16 v1.0 Trim and clip general TeX material
+ (/usr/local/texlive/2014/texmf-dist/tex/latex/collectbox/collectbox.sty
+Package: collectbox 2012/05/17 v0.4b Collect macro arguments as boxes
+\collectedbox=\box28
+)
+\tc@llx=\dimen125
+\tc@lly=\dimen126
+\tc@urx=\dimen127
+\tc@ury=\dimen128
+Package trimclip Info: Using driver 'tc-pdftex.def'.
+ (/usr/local/texlive/2014/texmf-dist/tex/latex/adjustbox/tc-pdftex.def
+File: tc-pdftex.def 2012/05/13 v1.0 Clipping driver for pdftex
+))
+\adjbox@Width=\dimen129
+\adjbox@Height=\dimen130
+\adjbox@Depth=\dimen131
+\adjbox@Totalheight=\dimen132
+ (/usr/local/texlive/2014/texmf-dist/tex/latex/ifoddpage/ifoddpage.sty
+Package: ifoddpage 2011/09/13 v1.0 Conditionals for odd/even page detection
+\c@checkoddpage=\count96
+) (/usr/local/texlive/2014/texmf-dist/tex/latex/varwidth/varwidth.sty
+Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
+\@vwid@box=\box29
+\sift@deathcycles=\count97
+\@vwid@loff=\dimen133
+\@vwid@roff=\dimen134
+)) (/usr/local/texlive/2014/texmf-dist/tex/latex/setspace/setspace.sty
+Package: setspace 2011/12/19 v6.7a set line spacing
+) (/usr/local/texlive/2014/texmf-dist/tex/latex/wrapfig/wrapfig.sty
+\wrapoverhang=\dimen135
+\WF@size=\dimen136
+\c@WF@wrappedlines=\count98
+\WF@box=\box30
+\WF@everypar=\toks19
+Package: wrapfig 2003/01/31  v 3.6
+) (/usr/local/texlive/2014/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2013/01/14 v2.14 AMS math features
+\@mathmargin=\skip47
+
+For additional information on amsmath, use the `?' option.
+(/usr/local/texlive/2014/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01
+ (/usr/local/texlive/2014/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0
+\@emptytoks=\toks20
+\ex@=\dimen137
+)) (/usr/local/texlive/2014/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d
+\pmbraise@=\dimen138
+) (/usr/local/texlive/2014/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 1999/12/14 v2.01 operator names
+)
+\inf@bad=\count99
+LaTeX Info: Redefining \frac on input line 210.
+\uproot@=\count100
+\leftroot@=\count101
+LaTeX Info: Redefining \overline on input line 306.
+\classnum@=\count102
+\DOTSCASE@=\count103
+LaTeX Info: Redefining \ldots on input line 378.
+LaTeX Info: Redefining \dots on input line 381.
+LaTeX Info: Redefining \cdots on input line 466.
+\Mathstrutbox@=\box31
+\strutbox@=\box32
+\big@size=\dimen139
+LaTeX Font Info:    Redeclaring font encoding OML on input line 566.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
+\macc@depth=\count104
+\c@MaxMatrixCols=\count105
+\dotsspace@=\muskip11
+\c@parentequation=\count106
+\dspbrk@lvl=\count107
+\tag@help=\toks21
+\row@=\count108
+\column@=\count109
+\maxfields@=\count110
+\andhelp@=\toks22
+\eqnshift@=\dimen140
+\alignsep@=\dimen141
+\tagshift@=\dimen142
+\tagwidth@=\dimen143
+\totwidth@=\dimen144
+\lineht@=\dimen145
+\@envbody=\toks23
+\multlinegap=\skip48
+\multlinetaggap=\skip49
+\mathdisplay@stack=\toks24
+LaTeX Info: Redefining \[ on input line 2665.
+LaTeX Info: Redefining \] on input line 2666.
+) (/usr/local/texlive/2014/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+ (/usr/local/texlive/2014/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+)) (/usr/local/texlive/2014/texmf-dist/tex/latex/jknapltx/mathrsfs.sty
+Package: mathrsfs 1996/01/01 Math RSFS package v1.0 (jk)
+\symrsfs=\mathgroup6
+) (/usr/local/texlive/2014/texmf-dist/tex/latex/tools/bm.sty
+Package: bm 2004/02/26 v1.1c Bold Symbol Support (DPC/FMi)
+\symboldoperators=\mathgroup7
+\symboldletters=\mathgroup8
+\symboldsymbols=\mathgroup9
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 137.
+LaTeX Info: Redefining \bm on input line 203.
+) (/usr/local/texlive/2014/texmf-dist/tex/latex/wasysym/wasysym.sty
+Package: wasysym 2003/10/30 v2.0 Wasy-2 symbol support package
+\symwasy=\mathgroup10
+LaTeX Font Info:    Overwriting symbol font `wasy' in version `bold'
+(Font)                  U/wasy/m/n --> U/wasy/b/n on input line 90.
+) (/usr/local/texlive/2014/texmf-dist/tex/latex/placeins/placeins.sty
+Package: placeins 2005/04/18  v 2.2
+) (/usr/local/texlive/2014/texmf-dist/tex/latex/multirow/multirow.sty
+\bigstrutjot=\dimen146
+) (/usr/local/texlive/2014/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
+ (/usr/local/texlive/2014/texmf-dist/tex/latex/base/t1enc.def
+File: t1enc.def 2005/09/27 v1.99g Standard LaTeX file
+LaTeX Font Info:    Redeclaring font encoding T1 on input line 43.
+)) (/usr/local/texlive/2014/texmf-dist/tex/latex/framed/framed.sty
+Package: framed 2011/10/22 v 0.96: framed or shaded text with page breaks
+\OuterFrameSep=\skip50
+\fb@frw=\dimen147
+\fb@frh=\dimen148
+\FrameRule=\dimen149
+\FrameSep=\dimen150
+) (/usr/local/texlive/2014/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2013/05/02 v3.3-89 Customizing captions (AR)
+ (/usr/local/texlive/2014/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2013/05/02 v1.6-88 caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 57.
+\captionmargin=\dimen151
+\captionmargin@=\dimen152
+\captionwidth=\dimen153
+\caption@tempdima=\dimen154
+\caption@indent=\dimen155
+\caption@parindent=\dimen156
+\caption@hangindent=\dimen157
+\abovecaptionskip=\skip51
+\belowcaptionskip=\skip52
+Package caption Info: Unknown document class (or package),
+(caption)             standard defaults will be used.
+)
+
+Package caption Warning: Unsupported document class (or package) detected,
+(caption)                usage of the caption package is not recommended.
+See the caption package documentation for explanation.
+
+Package caption Info: \@makecaption = undefined.
+\c@ContinuedFloat=\count111
+Package caption Info: hyperref package is loaded.
+Package caption Info: wrapfig package is loaded.
+) (/usr/local/texlive/2014/texmf-dist/tex/latex/tools/longtable.sty
+Package: longtable 2004/02/01 v4.11 Multi-page Table package (DPC)
+\LTleft=\skip53
+\LTright=\skip54
+\LTpre=\skip55
+\LTpost=\skip56
+\LTchunksize=\count112
+\LTcapwidth=\dimen158
+\LT@head=\box33
+\LT@firsthead=\box34
+\LT@foot=\box35
+\LT@lastfoot=\box36
+\LT@cols=\count113
+\LT@rows=\count114
+\c@LT@tables=\count115
+\c@LT@chunks=\count116
+\c@table=\count117
+\LT@p@ftn=\toks25
+) (/Users/justinyeakel/Dropbox/PostDoc/2014_GrasslandEvol/Working Group/Flyer/.texpadtmp/sfi_letter_template.aux)
+\openout1 = `sfi_letter_template.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
+Package scrbase Info: activating english \yourrefname on input line 54.
+Package scrbase Info: activating english \yourmailname on input line 54.
+Package scrbase Info: activating english \myrefname on input line 54.
+Package scrbase Info: activating english \customername on input line 54.
+Package scrbase Info: activating english \invoicename on input line 54.
+Package scrbase Info: activating english \subjectname on input line 54.
+Package scrbase Info: activating english \headfromname on input line 54.
+Package scrbase Info: activating english \datename on input line 54.
+Package scrbase Info: activating english \phonename on input line 54.
+Package scrbase Info: activating english \mobilephonename on input line 54.
+Package scrbase Info: activating english \faxname on input line 54.
+Package scrbase Info: activating english \emailname on input line 54.
+Package scrbase Info: activating english \wwwname on input line 54.
+Package scrbase Info: activating english \bankname on input line 54.
+Package scrbase Info: activating english \yourrefname on input line 54.
+Package scrbase Info: activating english \yourmailname on input line 54.
+Package scrbase Info: activating english \myrefname on input line 54.
+Package scrbase Info: activating english \customername on input line 54.
+Package scrbase Info: activating english \invoicename on input line 54.
+Package scrbase Info: activating english \subjectname on input line 54.
+Package scrbase Info: activating english \ccname on input line 54.
+Package scrbase Info: activating english \enclname on input line 54.
+Package scrbase Info: activating english \headtoname on input line 54.
+Package scrbase Info: activating english \headfromname on input line 54.
+Package scrbase Info: activating english \datename on input line 54.
+Package scrbase Info: activating english \pagename on input line 54.
+Package scrbase Info: activating english \phonename on input line 54.
+Package scrbase Info: activating english \mobilephonename on input line 54.
+Package scrbase Info: activating english \faxname on input line 54.
+Package scrbase Info: activating english \emailname on input line 54.
+Package scrbase Info: activating english \wwwname on input line 54.
+Package scrbase Info: activating english \bankname on input line 54.
+Class scrlttr2 Info: no date found for language `USenglish'
+(scrlttr2)           --> skipped on input line 54.
+Package scrbase Info: activating english \yourrefname on input line 54.
+Package scrbase Info: activating english \yourmailname on input line 54.
+Package scrbase Info: activating english \myrefname on input line 54.
+Package scrbase Info: activating english \customername on input line 54.
+Package scrbase Info: activating english \invoicename on input line 54.
+Package scrbase Info: activating english \subjectname on input line 54.
+Package scrbase Info: activating english \ccname on input line 54.
+Package scrbase Info: activating english \enclname on input line 54.
+Package scrbase Info: activating english \headtoname on input line 54.
+Package scrbase Info: activating english \headfromname on input line 54.
+Package scrbase Info: activating english \datename on input line 54.
+Package scrbase Info: activating english \pagename on input line 54.
+Package scrbase Info: activating english \phonename on input line 54.
+Package scrbase Info: activating english \mobilephonename on input line 54.
+Package scrbase Info: activating english \faxname on input line 54.
+Package scrbase Info: activating english \emailname on input line 54.
+Package scrbase Info: activating english \wwwname on input line 54.
+Package scrbase Info: activating english \bankname on input line 54.
+Class scrlttr2 Info: no date found for language `american'
+(scrlttr2)           --> skipped on input line 54.
+Class scrlttr2 Info: no date found for language `british'
+(scrlttr2)           --> skipped on input line 54.
+Class scrlttr2 Info: no date found for language `UKenglish'
+(scrlttr2)           --> skipped on input line 54.
+Class scrlttr2 Info: no date found for language `german'
+(scrlttr2)           --> skipped on input line 54.
+Class scrlttr2 Info: no date found for language `ngerman'
+(scrlttr2)           --> skipped on input line 54.
+Class scrlttr2 Info: no date found for language `austrian'
+(scrlttr2)           --> skipped on input line 54.
+Class scrlttr2 Info: no date found for language `naustrian'
+(scrlttr2)           --> skipped on input line 54.
+Class scrlttr2 Info: no date found for language `french'
+(scrlttr2)           --> skipped on input line 54.
+Class scrlttr2 Info: no date found for language `italian'
+(scrlttr2)           --> skipped on input line 54.
+Class scrlttr2 Info: no date found for language `spanish'
+(scrlttr2)           --> skipped on input line 54.
+Class scrlttr2 Info: no date found for language `croatian'
+(scrlttr2)           --> skipped on input line 54.
+Class scrlttr2 Info: no date found for language `dutch'
+(scrlttr2)           --> skipped on input line 54.
+Class scrlttr2 Info: no date found for language `finnish'
+(scrlttr2)           --> skipped on input line 54.
+Class scrlttr2 Info: no date found for language `norsk'
+(scrlttr2)           --> skipped on input line 54.
+Class scrlttr2 Info: no date found for language `swedish'
+(scrlttr2)           --> skipped on input line 54.
+Class scrlttr2 Info: trying to activate captions and date
+(scrlttr2)           of language `english' on input line 54.
+Class scrlttr2 Info: used language is `english'.
+(scrlttr2)           Supported languages are `english', `UKenglish',
+(scrlttr2)           `british', `american', `USenglish',
+(scrlttr2)           `german', `ngerman', `austrian', `naustrian',
+(scrlttr2)           `dutch', `italian', `spanish',
+(scrlttr2)           `croatian', `finnish', `norsk', `swedish' on input line 54.
+ (/usr/local/texlive/2014/texmf-dist/tex/context/base/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count118
+\scratchdimen=\dimen159
+\scratchbox=\box37
+\nofMPsegments=\count119
+\nofMParguments=\count120
+\everyMPshowfont=\toks26
+\MPscratchCnt=\count121
+\MPscratchDim=\dimen160
+\MPnumerator=\count122
+\makeMPintoPDFobject=\count123
+\everyMPtoPDFconversion=\toks27
+) (/usr/local/texlive/2014/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
+ (/usr/local/texlive/2014/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
+)
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPEG,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 452.
+ (/usr/local/texlive/2014/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
+))
+\AtBeginShipoutBox=\box38
+Package hyperref Info: Link coloring OFF on input line 54.
+ (/usr/local/texlive/2014/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
+ (/usr/local/texlive/2014/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
+Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
+)
+\c@section@level=\count124
+)
+LaTeX Info: Redefining \ref on input line 54.
+LaTeX Info: Redefining \pageref on input line 54.
+LaTeX Info: Redefining \nameref on input line 54.
+ (/Users/justinyeakel/Dropbox/PostDoc/2014_GrasslandEvol/Working Group/Flyer/.texpadtmp/sfi_letter_template.out) (/Users/justinyeakel/Dropbox/PostDoc/2014_GrasslandEvol/Working Group/Flyer/.texpadtmp/sfi_letter_template.out)
+\@outlinefile=\write3
+\openout3 = `sfi_letter_template.out'.
+
+ ABD: EveryShipout initializing macros
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: letterpaper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(72.26999pt, 469.75502pt, 72.26999pt)
+* v-part:(T,H,B)=(90.3375pt, 625.13506pt, 79.49744pt)
+* \paperwidth=614.295pt
+* \paperheight=794.96999pt
+* \textwidth=469.75502pt
+* \textheight=625.13506pt
+* \oddsidemargin=0.0pt
+* \evensidemargin=0.0pt
+* \topmargin=-19.3325pt
+* \headheight=17.0pt
+* \headsep=20.40001pt
+* \topskip=11.0pt
+* \footskip=47.6pt
+* \marginparwidth=61.42949pt
+* \marginparsep=12.8401pt
+* \columnsep=0.0pt
+* \skip\footins=10.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: longtable package is loaded.
+(/usr/local/texlive/2014/texmf-dist/tex/latex/caption/ltcaption.sty
+Package: ltcaption 2013/02/03 v1.3-62 longtable captions (AR)
+)
+Package caption Info: End \AtBeginDocument code.
+
+
+Class scrlttr2 Warning: Letter option file `DIN.lco'
+(scrlttr2)              needs paper size `a4'.
+(scrlttr2)              Current paper size is not `a4'!
+(scrlttr2)              You should add `paper=a4' at the
+(scrlttr2)              option list of \documentclass!
+(scrlttr2)              Maybe you know what you are doing,
+(scrlttr2)              so I do not change this myself.
+
+Foldmarks: no
+Head of first page
+<SFI_Name_308.pdf, id=4, 208.79225pt x 13.70601pt>
+File: SFI_Name_308.pdf Graphic file (type pdf)
+ <use SFI_Name_308.pdf>
+Package pdftex.def Info: SFI_Name_308.pdf used on input line 59.
+(pdftex.def)             Requested size: 137.31255pt x 9.01419pt.
+ <SFI_Mimbres_Insignia_308.pdf, id=5, 87.90102pt x 87.94777pt>
+File: SFI_Mimbres_Insignia_308.pdf Graphic file (type pdf)
+ <use SFI_Mimbres_Insignia_308.pdf>
+Package pdftex.def Info: SFI_Mimbres_Insignia_308.pdf used on input line 59.
+(pdftex.def)             Requested size: 54.2025pt x 54.2318pt.
+ <SFI_Mimbres_Insignia_black_5perOpacity_half.pdf, id=6, 45.16875pt x 90.3375pt>
+File: SFI_Mimbres_Insignia_black_5perOpacity_half.pdf Graphic file (type pdf)
+ <use SFI_Mimbres_Insignia_black_5perOpacity_half.pdf>
+Package pdftex.def Info: SFI_Mimbres_Insignia_black_5perOpacity_half.pdf used on input line 59.
+(pdftex.def)             Requested size: 204.52423pt x 409.16016pt.
+
+Overfull \vbox (77.68533pt too high) detected at line 59
+ []
+
+File: SFI_Name_308.pdf Graphic file (type pdf)
+<use SFI_Name_308.pdf>
+Package pdftex.def Info: SFI_Name_308.pdf used on input line 59.
+(pdftex.def)             Requested size: 137.31255pt x 9.01419pt.
+File: SFI_Mimbres_Insignia_308.pdf Graphic file (type pdf)
+ <use SFI_Mimbres_Insignia_308.pdf>
+Package pdftex.def Info: SFI_Mimbres_Insignia_308.pdf used on input line 59.
+(pdftex.def)             Requested size: 54.2025pt x 54.2318pt.
+File: SFI_Mimbres_Insignia_black_5perOpacity_half.pdf Graphic file (type pdf)
+ <use SFI_Mimbres_Insignia_black_5perOpacity_half.pdf>
+Package pdftex.def Info: SFI_Mimbres_Insignia_black_5perOpacity_half.pdf used on input line 59.
+(pdftex.def)             Requested size: 204.52423pt x 409.16016pt.
+
+
+Class scrlttr2 Warning: head of first page is 77.68533pt too high.
+(scrlttr2)              You have to change `firstheadvpos'
+(scrlttr2)              or you have to define a smaller
+(scrlttr2)              head of first page using \setkomavar.
+(scrlttr2)              Because of this too high head of first page
+(scrlttr2)              you've got an overfull \vbox message on input line 59.
+
+Foot of first page
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 59.
+(/usr/local/texlive/2014/texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/sc' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 59.
+
+Address (addressee)
+Location field: empty
+Title: no
+Subject: no
+LaTeX Font Info:    Try loading font information for U+msa on input line 66.
+(/usr/local/texlive/2014/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 66.
+ (/usr/local/texlive/2014/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+LaTeX Font Info:    Try loading font information for U+rsfs on input line 66.
+ (/usr/local/texlive/2014/texmf-dist/tex/latex/jknapltx/ursfs.fd
+File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
+)
+LaTeX Font Info:    Try loading font information for U+wasy on input line 66.
+ (/usr/local/texlive/2014/texmf-dist/tex/latex/wasysym/uwasy.fd
+File: uwasy.fd 2003/10/30 v2.0 Wasy-2 symbol font definitions
+)
+
+Class scrlttr2 Warning: Usage of deprecated font command `\rm'!
+(scrlttr2)              You should note, that in 1994 font command `\rm' has
+(scrlttr2)              been defined for compatiblitiy to Script 2.0 only.
+(scrlttr2)              Now, after two decades of LaTeX2e and NFSS2, you
+(scrlttr2)              shouldn't use such commands any longer and within
+(scrlttr2)              KOMA-Script usage of `\rm' is definitely deprecated.
+(scrlttr2)              See `fntguide.pdf' for more information about
+(scrlttr2)              recommended font commands.
+(scrlttr2)              Note also, that KOMA-Script will remove the definition
+(scrlttr2)              of `\rm' anytime until release of about version 3.20.
+(scrlttr2)              But for now, KOMA-Script will replace deprecated `\rm'
+(scrlttr2)              by `\mathrm ' on input line 66.
+
+
+Class scrlttr2 Warning: Usage of deprecated font command `\rm'!
+(scrlttr2)              You should note, that in 1994 font command `\rm' has
+(scrlttr2)              been defined for compatiblitiy to Script 2.0 only.
+(scrlttr2)              Now, after two decades of LaTeX2e and NFSS2, you
+(scrlttr2)              shouldn't use such commands any longer and within
+(scrlttr2)              KOMA-Script usage of `\rm' is definitely deprecated.
+(scrlttr2)              See `fntguide.pdf' for more information about
+(scrlttr2)              recommended font commands.
+(scrlttr2)              Note also, that KOMA-Script will remove the definition
+(scrlttr2)              of `\rm' anytime until release of about version 3.20.
+(scrlttr2)              But for now, KOMA-Script will replace deprecated `\rm'
+(scrlttr2)              by `\mathrm ' on input line 66.
+
+
+Class scrlttr2 Warning: Usage of deprecated font command `\rm'!
+(scrlttr2)              You should note, that in 1994 font command `\rm' has
+(scrlttr2)              been defined for compatiblitiy to Script 2.0 only.
+(scrlttr2)              Now, after two decades of LaTeX2e and NFSS2, you
+(scrlttr2)              shouldn't use such commands any longer and within
+(scrlttr2)              KOMA-Script usage of `\rm' is definitely deprecated.
+(scrlttr2)              See `fntguide.pdf' for more information about
+(scrlttr2)              recommended font commands.
+(scrlttr2)              Note also, that KOMA-Script will remove the definition
+(scrlttr2)              of `\rm' anytime until release of about version 3.20.
+(scrlttr2)              But for now, KOMA-Script will replace deprecated `\rm'
+(scrlttr2)              by `\mathrm ' on input line 66.
+
+
+Class scrlttr2 Warning: Usage of deprecated font command `\rm'!
+(scrlttr2)              You should note, that in 1994 font command `\rm' has
+(scrlttr2)              been defined for compatiblitiy to Script 2.0 only.
+(scrlttr2)              Now, after two decades of LaTeX2e and NFSS2, you
+(scrlttr2)              shouldn't use such commands any longer and within
+(scrlttr2)              KOMA-Script usage of `\rm' is definitely deprecated.
+(scrlttr2)              See `fntguide.pdf' for more information about
+(scrlttr2)              recommended font commands.
+(scrlttr2)              Note also, that KOMA-Script will remove the definition
+(scrlttr2)              of `\rm' anytime until release of about version 3.20.
+(scrlttr2)              But for now, KOMA-Script will replace deprecated `\rm'
+(scrlttr2)              by `\mathrm ' on input line 66.
+
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 74.
+[1
+
+{/usr/local/texlive/2014/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./SFI_Name_308.pdf> <./SFI_Mimbres_Insignia_308.pdf> <./SFI_Mimbres_Insignia_black_5perOpacity_half.pdf>]
+File: SFI_Name_308.pdf Graphic file (type pdf)
+ <use SFI_Name_308.pdf>
+Package pdftex.def Info: SFI_Name_308.pdf used on input line 95.
+(pdftex.def)             Requested size: 137.31255pt x 9.01419pt.
+File: SFI_Mimbres_Insignia_black_5perOpacity_half.pdf Graphic file (type pdf)
+ <use SFI_Mimbres_Insignia_black_5perOpacity_half.pdf>
+Package pdftex.def Info: SFI_Mimbres_Insignia_black_5perOpacity_half.pdf used on input line 95.
+(pdftex.def)             Requested size: 204.52423pt x 409.16016pt.
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+[] [] 
+ []
+
+
+Overfull \hbox (6.9979pt too wide) has occurred while \output is active
+[][][]
+ []
+
+
+Overfull \hbox (30.72897pt too wide) has occurred while \output is active
+[][]
+ []
+
+[2]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 97.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 97.
+ (/Users/justinyeakel/Dropbox/PostDoc/2014_GrasslandEvol/Working Group/Flyer/.texpadtmp/sfi_letter_template.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 97.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 97.
+Package rerunfilecheck Info: File `sfi_letter_template.out' has not changed.
+(rerunfilecheck)             Checksum: <no file>.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 97.
+ ) 
+Here is how much of TeX's memory you used:
+ 11187 strings out of 493117
+ 170256 string characters out of 6135433
+ 334437 words of memory out of 5000000
+ 14437 multiletter control sequences out of 15000+600000
+ 17543 words of font info for 55 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 57i,17n,100p,1154b,451s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2014/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/cm-super/sfbx1095.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/cm-super/sfcc0800.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/cm-super/sfti1095.pfb>
+Output written on "/Users/justinyeakel/Dropbox/PostDoc/2014_GrasslandEvol/Working Group/Flyer/.texpadtmp/sfi_letter_template.pdf" (2 pages, 275377 bytes).
+PDF statistics:
+ 85 PDF objects out of 1000 (max. 8388607)
+ 65 compressed objects within 1 object stream
+ 3 named destinations out of 1000 (max. 500000)
+ 16 words of extra memory for PDF output out of 10000 (max. 10000000)
+
