@@ -1,91 +1,232 @@
-\documentclass{article}[10pt]
-
-%\usepackage[margin=1in,footskip=0.25in]{geometry}
-
-%\usepackage{helvet}
-%\renewcommand{\familydefault}{\sfdefault}
-\renewcommand\refname{\vskip -1cm}
-%\renewcommand{\rmdefault}{phv} % Arial
-%\renewcommand{\sfdefault}{phv} % Arial
-\usepackage{setspace}
-\usepackage{wrapfig}
-\usepackage{amsmath}
-\usepackage{amssymb}
-\usepackage{graphicx}
-\usepackage{mathrsfs}
-\usepackage{bm}
-\usepackage{wasysym}
-\usepackage{placeins}
-\usepackage{multirow}
+\documentclass[11pt]{article}
+\usepackage{times}
+\usepackage{multicol}
 \usepackage[T1]{fontenc}
-\usepackage[comma]{natbib}
-\usepackage{framed}
-\usepackage{caption}
-\usepackage{longtable}
-\usepackage{geometry}
-\usepackage{lineno}
+\usepackage{mathptmx}
+\usepackage{fancyhdr}
+\usepackage{array}
+%\usepackage{wasysym}
+\usepackage{textcomp}
+\pagestyle{fancy}
+\usepackage{wrapfig}
+%\usepackage{floatflt}
+\usepackage{float}
+\fancyhf{}
 
-\geometry{verbose,letterpaper,tmargin=2.54cm,bmargin=2.54cm,lmargin=2.54cm,rmargin=2.54cm}
+\usepackage{xcolor}
+\usepackage{array}
+\newcolumntype{C}[1]{>{\centering\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+\newcolumntype{R}[1]{>{\raggedleft\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+\newcolumntype{L}[1]{>{\raggedright\let\newline\\\arraybackslash\hspace{0pt}}b{#1}}
 
 
-\title{Working Group Report \\ 
-Coupled Grassland and Mammalian Community Dynamics Over Ecological and Evolutionary Timescales II}
+\usepackage{natbib}  %Bibliography package
+\usepackage{graphicx} %Package needed for inserting figures
+\usepackage{graphics}
+\usepackage{ccaption}
+\usepackage{lineno}  %% line number package
+\usepackage{amssymb, amscd}
+\usepackage{amsfonts}
+\usepackage{amsmath,bm}
+\usepackage{times}
+\usepackage{marvosym}  %%commands redundant to the aastex style file have been commented from my copy of marvosym.sty
+\usepackage{rotating}
+\usepackage[figoff]{figcaps}  % use this package to place figures and tables at the end
+\usepackage{lscape}
+
+%\linenumbers %% line number command
+\oddsidemargin 0in %-.375in
+\evensidemargin -.5in
+\textwidth=6.5in
+\textheight=9.2in
+\headwidth = 6.5in
+\itemsep=0in
+\parsep=0in
+%\addtolength{\textheight}{2cm}
+\addtolength{\topmargin}{-1.00in}
+\renewcommand{\headrulewidth}{0pt}
+
+%\bibpunct{[}{]}{,}{a}{}{,}
+\bibpunct{(}{)}{,}{a}{}{,}
 
 \begin{document}
+%\graphicspath{{/home/greg/Dropbox/texfigs/}} %graphics path for linux
+%\graphicspath{{/Users/gregbreed/Dropbox/texfigs/}}
+%\renewcommand{\rmdefault}{ptm}
+\printfigures
+\figmarkon
 
-\maketitle
 
-{\bf Background} Mammalian communities in Africa have undergone dramatic changes over the last five million years, and much of this change has been linked to the spread of C4 grassland habitats.
-The \emph{Coupled Grassland and Mammalian Community Dynamics Over Ecological and Evolutionary Timescales} working group at Dartmouth College in Hanover, New Hampshire is the second meeting in a series with an aim to include researchers spanning multiple fields with an interest in these systems to generate original research.
-The first working group was hosted and funded by the Santa Fe Institute in Santa Fe, New Mexico from September 30 - October 02, 2015.
-This follow-up group meeting was supported by the William H. Neukom Institute for Computational Science, Dartmouth College, and the Claire Garber Goodman Fund in the Department of Anthropology, Dartmouth College, from May 22-23, 2016.
-The participants included
+\renewcommand{\figurename}{Fig}
+%\fancyhead[RE, LO]{\large{Greg A Breed} \hfill Contribution Details}
+%\markboth{}{Greg A Breed \hfill Contribution Details}
+\setlength{\parindent}{0.3in}
+\setlength{\parskip}{1pt}
 
-\begin{enumerate}
-\item Michael Brown (Dartmouth College)
-\item Andy Dobson (Princeton University)
-\item Nathaniel Dominy (Dartmouth College)
-\item John Fryxell (University of Guelph)
-\item Jacquelyn Gill (University of Maine)
-\item Caley Johnson (CUNY)
-\item Mathias Pires (S\~ao Paulo University via Skype)
-\item Caroline Str\"omberg (University of Washington via Skype)
-\item Kevin Uno (Lamont-Doherty Earth Observatory)
-\item Vivek Venkataraman (Dartmouth College)
-\item Justin Yeakel (University of California, Merced; Santa Fe Institute)
-\end{enumerate}
+\lhead[\thepage]{Project Description}      % Note the different brackets!
+\rhead[\thesection]{}%Historic Marine Trophic Cascades}
 
-\vspace{5 mm}
+\cfoot[\thepage]{\thepage}
+%\rfoot[\thepage]{\today}
+\lfoot[\thepage]{}
 
-{\bf Products of this working group} Members of the working group have decided to initiate a large collaborative NSF proposal (NSF Macrosystems Biology; \$2.6 Million), which is due October 27, 2016, tentatively titled {\bf \emph{African food webs over space and time: using ecological and environmental constraints to predict community structure and function throughout the late Cenozoic}}.
-Our discussions focused on establishing an integrative theory to \emph{i}) predict the occurrance of herbivore species in African habitats with known environmental constraints, and \emph{ii}) predict the interactions between species in habitats with known community compositions.
+%\vspace{-9mm}
+
+%\noindent \textbf{Collaborative Research:  African food webs over space and time: using ecological and environmental constraints to predict community structure and function throughout the late Cenozoic and into the future}
+%\vspace{-5mm}
+%\pagebreak
+%%%%%% Program Officer: csuchman@nsf.gov  Cynthia Suchman
+
+
+
+\subsection*{\large \textbf{Introduction and Justification}}\vspace{-2mm}
+
+
+Mammalian evolution during the last 20 million years has been intimately tied to productive, low sward, open grassland habitats.
+Over the last 5 million years, the expansion and dominance of $\rm C_4$ grassland habitats has exerted strong selective pressures on the evolution of African communities, and in particular the evolution and diversification of human ancestors.
+Whereas mammalian communities on most continents have largely been reshaped by extinctions towards the end of the Pleistocene, sub-Saharan African habitats have long been recognized as hotspots of diversity, and the last remaining Pleistocene-like ecosystems.
+
+Although open grassland/mixed woodland habitats begin expanding in Africa during the middle Miocene (ca. 15 Ma), evidence of $\rm C_4$ grasslands do not accumulate until the late Miocene (ca. 10 Ma), whereas organisms intimately tied to contemporary grasslands do not increase in relative abundance until the late Pliocene (2.4 Ma). 
+Coincident with the spread of open grasslands is a remarkable diversification of mammalian species in these environments (specifically ungulates), as well as the evolution of traits associated with open habitat grazing such as increased limb length, hypsodonty, and body size [others].
+The contemporary distribution of grasslands, bistable grassland/woodland savannas, and forests is believed to be strongly controlled by environmental conditions such as temperature, rainfall, and fire regimes.
+Future climate forecasts indicate large changes [reductions? increases?] to these determinants of vegetative cover, particularly in sub-Saharan Africa.
+The composition of mammalian communities, and the consequent interspecific interactions forming the food web, are in large part dependent on habitat primary productivity.
+As such, unraveling these dependancies is vital for understanding how mammalian communities have changed throughout the last 5 Ma, the role of human ancestors in shaping, or being shaped by these systems, and ultimately in predicting how environmental changes will alter mammalian communities in the future.
+
+
+The extent that the prevalence of grassland, savanna, and woody vegetation impacts both the structure of the community as well as the structure of interactions between species in these communities is unknown.
+What we do know about the influence of vegetative regimes on the structure of mammalian communities in Africa has largely been due to large multi-decadal projects in regions such as the Serengeti and Amboseli.
+Importantly, there has not been a cohesive attempt to understand community structure and organization in African habitats that integrates information from paleontological and modern systems.
+Because modern African communities cannot be disentangled from anthropogenic impacts throughout the Holocene (in particular the last 200 years of European and Asiatic exploitation on the continent), it is important to develop a general predictive framework to understand the occurrence of and interactions between species or species groups as a function of environmental and vegetative conditions for both past and contemporary African habitats.
+Obtaining a perspective that integrates knowledge of African mammalian communities in a predictive framework will provide us the toolkit with which we can forecast changes to these systems under different climate change scenarios.
+ 
+
+\noindent \textbf{Project Goals \& Organization.}
+%Here we propose to develop a set of predictive niche models that aim to 1) predict the occurrence of species across modern African habitats spanning a grassland to woodland transition, and 2) predict trophic interactions between plant functional groups, herbivores, and carnivores to develop a cohesive understanding of community structure.
+%These niche models will then be applied to selective paleontological sites [Turkana, Laetoli?] exhibiting high temporal resolution over the last 5 million years.
+%Known changes in assemblages as well as environmental conditions will permit us to verify our model, as well as to reconstruct changes in food web structure.
+%
+
+We aim to establish an integrative theory to \emph{i}) predict the occurrence of mammalian species in African habitats with known environmental and vegetative constraints, and \emph{ii}) predict the interactions between species in habitats with known community compositions.
 These complimentary approaches will use extensive modern and paleontological datasets to establish statistical models of herbivore occupancy as well as plant/herbivore and herbivore/carnivore interactions.
-Model predictions will be verified based on known characteristics of both modern and paleontological African systems (for example the distribution of mammalian carbon isotope ratios within a given habitat, which describes the flow of different nutrient source-pools throughout the food web).
-Together, these \emph{trophic niche models} will be used to reconstruct community food webs over multiple trophic levels such that the system-level impact of changing environments, the evolution of novel species, as well as the extinction of species or functional groups of species, can be directly assessed.
-If our models prove to have predictive accuracy in modern and paleontological ecosystems, the next phase of the project will then aim to make specific predictions of future food web composition and functioning based on  climate predictions for different African habitats.
+Model predictions will be verified based on known characteristics of both modern and paleontological African systems. %(for example the distribution of mammalian carbon isotope ratios within a given habitat, which describes the flow of different nutrient source-pools throughout the food web)
+Together, these \emph{trophic niche models} will be used to reconstruct community food webs such that the system-level impact of changing environments, the evolution of novel species, as well as the extinction of species or functional groups of species, can be directly assessed and verified in both contemporary systems spanning multiple habitat gradients as well as paleontological systems spanning large temporal windows.
+After verifying predictive accuracy in modern and paleontological ecosystems, the next phase of the project will use models of climate change to make specific predictions of food web composition and functioning for different African habitats.
 
-A second emphasis of this proposal will be to assess the impact of hominin evolution and diversification African food webs over evolutionary time.
+A second emphasis of this proposal is to assess the impact of hominin evolution and diversification within African food webs over evolutionary time.
 Of particular interest is how increasing dietary generalism and omnivory among hominins (and \emph{Homo} in particular) may have influenced the dynamic functioning of the food web.
-Because we have a record of species extinctions over time, a central question of this project focus will involve determining whether the foraging traits associated with derived hominins may have increased the likelihood of species-specific extinctions.
+Because the trajectory of species extinctions is known, a central question of this project aim will focus will involve determining whether the foraging traits associated with derived hominins may have increased the likelihood of species-specific extinctions and/or community restructuring.
+
+To accomplish these general goals, our work will address four inter-related objectives: 
+{\bf 1) developing trophic niche models to estimate the occurrence of species and species groups from vegetative and environmental conditions of different habitats across sub-Saharan Africa, while simultaneously building a statistical framework for predicting trophic interactions from general vegetative/herbivore traits; 
+2) verifying model predictions on both modern and paleontological sites to gain insight into the drivers of community composition and the consequent effects on food web structure and dynamics;
+3) specifically understand the influence of human ancestors on food web structure and functioning over evolutionary time; and
+4) use established and verified modeling frameworks to forecast changes to African community composition as a function of changing vegetative regimes in response to climate change scenarios.
+}
+Together, these objectives will aim to introduce a cohesive understanding of the primary determinants driving mammalian community structure in sub-Saharan African environments during the expansion and dominance of grassland habitats.
+This framework will be useful for predicting community responses to changing environments, as well as providing an ecosystem-level context for understanding human evolution.
+
+
+
+\subsubsection*{\sf Objective 1: Predict modern mammalian assemblages and trophic interactions across African habitats}
+
+\subsubsection*{\sf Objective 2: Predict paleontological assemblages of mammals spanning the last 5 million years}
+
+
+
+\subsubsection*{\sf Objective 3: Forecast future community and trophic changes in Africa}
+
+
+
+
+\subsubsection*{\sf Objective 4: Reconstructing the impact of hominin evolution and diversification}
+
+\noindent \textbf{Background} [Justin will start on this but will need some help!] \\ \nonumber
+\noindent Contemporary ecosystems:\\ \nonumber
+[Determinants of grass/woody cover] \\ \nonumber
+[Influence of vegetation on herbivores]\\ \nonumber
+[Trophic interactions of herbivores on veg]\\ \nonumber
+[Feedback - ecosystem engineering, fire, etc]\\ \nonumber
+[Trophic interactions of predators on herbivores]
+
+\vspace{2 mm}
+
+\noindent Paleontological ecosystems: \\ \nonumber
+[Expansion of grassland ecosystems; C4 ecosystems] \\ \nonumber
+[Coevolution of grazers] \\ \nonumber
+[Hominin evolution and diversification]
+
+\vspace{2 mm}
+
+\noindent Future ecosystems: \\ \nonumber
+[Climate change scenarios]
+
 
 \vspace{5 mm}
 
-{\bf Primary Questions} The proposal will thus be designed to address the following larger-scope questions:
 
-\begin{enumerate}
-	\item Can trophic niche models predict modern assemblages across Africa?
-	\item Can trophic niche models predict paleo assemblages spanning the last 5 million years?
-	\item Can trophic niche models predict changes over time in any single assemblage?
-	\item Can trophic niche models predict changes in hominin impacts on community food webs?
-\end{enumerate}
+\subsection*{\large \textbf{Research Plan}}\vspace{-2mm}
+
+\noindent \textbf{Overview: Characterizing modern and paleontological African habitats with environmental, vegetative, and herbivore trait data}
+[This will summarize the methods making up the below sections, so should be done last]
+%This section details the modern and paleo data that we will use to predict mammalian species occupancy
+%This section
 
 \vspace{5 mm}
 
-{\bf Future Directions} Our primary goal over the next few months is to construct and submit the above proposal, which is due on October 27, 2016.
-As we begin to compile and compliment existing datasets to inform the development of the model, project co-PIs will aim to schedule a third follow-up meeting during late spring/summer 2017 at the Santa Fe Institute in Santa Fe, New Mexico, pending approval by the SFI Science Board.
-This third meeting will be used to develop the roadmap for future efforts, refine the development of the model, as well as to identify the publication plan.
-In addition to the NSF Macrosystems Biology submission, and because a large portion of this project deals with the reconstruction and analysis of complex systems, we believe that a parallel effort to develop a McDonnell grant, and/or an NSF Sedimentary Geology and Paleobiology grant may be fruitful, particularly if the Macrosystems Biology grant is not successful.
-Importantly, many elements of the proposed project can be tackled with medium-smaller sized grants in the case that no large grants are successful.
+\noindent \textbf{Predicting Species Presence With Environmental Data}
+[Andy, John]
+
+\vspace{5 mm}
+
+\noindent \textbf{Predicting Species Interactions from Trait Data}
+[Justin, Mathias]
+
+\vspace{5 mm}
+
+\noindent \textbf{Reconstructing Past Environments in [Turkana?] [Laetoli?]}
+[Caroline, Jacqueline, Kevin, Nate]
+
+\vspace{5 mm}
+
+\noindent \textbf{Environmental Structuring of African Savanna Communities}
+[Andy, John]
+
+\vspace{5 mm}
+
+\noindent \textbf{Reconstructing Food Webs From the Pliocene to the Present}
+[Justin, Mathias, Kevin, Caroline, Jacquelyn]
+
+\vspace{5 mm}
+
+\noindent \textbf{Predicted Community-Level Responses to Future Climate Scenarios}
+[Andy, John, Justin, Mathias]
+
+\vspace{5 mm}
+
+\noindent \textbf{Community-Level Responses to Hominin Evolution and Diversification}
+[Nate, Vivek, Caley, Justin, Mathias]
+
+
+\newpage
+
+\subsection*{\large \textbf{Results of Prior NSF Support}}\vspace{-2mm}
+
+\subsection*{\large \textbf{Description of Research and Educational Activities}}\vspace{-2mm}
+
+
+
+
+
+
+
+\pagebreak
+\lhead[\thepage]{References}      % Note the different brackets!
+\setcounter{page}{1}
+
+%\bibliography{/Users/gregbreed/Dropbox/bib/nwatc,/Users/gregbreed/Dropbox/bib/main}
+%\bibliographystyle{/Users/gregbreed/Dropbox/bib/IEEEtran}
+
 
 
 
